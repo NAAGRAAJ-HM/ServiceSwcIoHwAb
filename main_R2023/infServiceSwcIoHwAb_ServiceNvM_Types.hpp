@@ -19,15 +19,17 @@
 class NvM_BlocksRom_ServiceSwcIoHwAb_Type:
       public ConstModule_TypeAbstract
 {
-/******************************************************************************/
-/* CONSTS                                                                     */
-/******************************************************************************/
 /*
    public:
       infMcalMcu_ServiceSwcIoHwAb*        ptrinfMcalMcu_ServiceSwcIoHwAb;
       infServiceOs_ServiceSwcIoHwAb*      ptrinfServiceOs_ServiceSwcIoHwAb;
       infServiceSwcEcuM_ServiceSwcIoHwAb* ptrinfServiceSwcEcuM_ServiceSwcIoHwAb;
 */
+};
+
+class NvM_BlocksNv_ServiceSwcIoHwAb_Type:
+      public CfgModule_TypeAbstract
+{
 };
 
 /******************************************************************************/
